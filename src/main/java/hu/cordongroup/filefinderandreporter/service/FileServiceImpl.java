@@ -124,6 +124,7 @@ public class FileServiceImpl implements FileService {
     private void showActualDirectory(Path path) {
         if (++this.progress >= 10) {
             this.progress = 0;
+            System.out.print("\033[2K");
             System.out.print(path + "\r");
         }
     }
