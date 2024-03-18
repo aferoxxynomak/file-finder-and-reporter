@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>hu.cordongroup</groupId>
 	<artifactId>file-finder-and-reporter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>file-finder-and-reporter</name>
 	<description>File finder and reporter</description>
 	<properties>
@@ -20,6 +20,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.opencsv/opencsv -->
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>5.9</version>
 		</dependency>
 
 		<dependency>
